@@ -1,0 +1,24 @@
+node_modules
+*.vsix
+.env
+
+# Dependências e módulos
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Compilação e Build
+dist/
+out/
+*.vsix
+
+# Configurações locais do VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# Sistema
+.DS_Store
+Thumbs.db

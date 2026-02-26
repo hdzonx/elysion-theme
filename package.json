@@ -1,0 +1,28 @@
+{
+  "name": "elysion-theme",
+  "publisher": "hdzonx",
+  "displayName": "elysion",
+  "description": "dark theme for scientific development",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.109.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "elysion",
+        "uiTheme": "vs-dark",
+        "path": "./themes/elysion-color-theme.json"
+      }
+    ],
+    "semanticHighlighting": true
+  },
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/hdzonx/elysion-theme"
+  },
+  "license": "Apache-2.0"
+}
